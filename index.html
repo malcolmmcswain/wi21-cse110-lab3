@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CSE 110 Lab 2</title>
+        <title>CSE 110 Lab 3</title>
         <meta charset="UTF-8">
-        <link href="#" rel="alternate">
+        <link href="style.css" rel="stylesheet">
+        <style>
+            * {
+                margin-top: 5px;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="my-nav">
                 <a href="#">Home</a><br>
                 <a href="#">Next</a>
             </nav>
         </header>
         <main>
             <section>
-                <h1>Hello!</h1>
-                <h2>Hi!</h2>
-                <h3>Hey!</h3>
+                <h1 id="heading">Hello!</h1>
+                <h2 id="heading">Hi!</h2>
+                <h3 id="heading">Hey!</h3>
                 <div>
                     <span><b>This is bold text.</b></span>
                     <i>This is italic.</i>
@@ -27,14 +32,14 @@
                 </div>
                 <hr>
                 <ul>
-                    <li>This</li>
+                    <li style="font-weight: bold">This</li>
                     <li>is</li>
                     <li>an</li>
                     <li>unordered</li>
                     <li>list.</li>
                 </ul>
                 <ol>
-                    <li>This</li>
+                    <li style="font-weight: bold;">This</li>
                     <li>is</li>
                     <li>an</li>
                     <li>ordered</li>
@@ -119,7 +124,7 @@
                 <template>
                     <p>You can't</p>
                 </template>
-                <button>Click here to find out how!</button>
+                <button class="cool-btn">Click here to find out how!</button>
             </details>
         </main>
         <footer>
