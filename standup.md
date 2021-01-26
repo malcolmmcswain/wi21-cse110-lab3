@@ -1,9 +1,16 @@
 Malcolm McSwain
 - What did you do yesterday?
-Created repository
+
+_Created repository_
+
 - What will you do today?
-Added source code, closed all issues
+
+_Added source code, closed all issues_
+
 - Where are you blocked?
-I am not currently blocked.
+
+_I am not currently blocked._
+
 - Comfort Level — How close are we to hitting our sprint goals?
-This project is now done!
+
+_This project is now done!_
